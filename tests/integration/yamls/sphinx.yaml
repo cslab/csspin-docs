@@ -1,0 +1,9 @@
+minimum-spin: '0.2'
+plugin-packages:
+    - git+https://code.contact.de/qs/spin/spin_python.git # FIXME: Use stable release
+    - ../../..
+plugins:
+    - spin_python.python
+    - spin_docs.sphinx
+python:
+    version: '3.9.7'
