@@ -1,0 +1,24 @@
+# -*- mode: yaml; coding: utf-8 -*-
+#
+# Schema of the sphinx plugin for cs.spin
+
+sphinx:
+    type: object
+    help: Configuration of the sphinx plugin for cs.spin
+    properties:
+        docs:
+            type: path
+            help: Directory containing the documentation
+        opts:
+            type: str
+            help: Options passed to the sphinx call
+        build_dir:
+            type: path
+            help: Place to store the built documentation
+        requires:
+            type: object
+            help: Dependencies of the sphinx plugin
+            properties:
+                python:
+                    type: list
+                    help: Python dependencies of the sphinx plugin
