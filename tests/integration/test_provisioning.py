@@ -34,3 +34,10 @@ def execute_spin(tmpdir, what, cmd, path="tests/integration/yamls", props=""):
 def test_sphinx_provision(tmpdir):
     """Provision the sphinx plugin"""
     execute_spin(tmpdir=tmpdir, what="sphinx.yaml", cmd="docs --help")
+
+
+@pytest.mark.integration()
+@pytest.mark.xfail(reason="Latest plugin-package states may fail")
+def test_sphinx_latest_provision(tmpdir):
+    """Provision the sphinx plugin"""
+    execute_spin(tmpdir=tmpdir, what="sphinx-latest.yaml", cmd="docs --help")
