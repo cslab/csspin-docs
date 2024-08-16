@@ -1,0 +1,26 @@
+# The spinfile.yaml for spin_docs is required since building the documentation
+# requires a provisioned project.
+minimum-spin: '0.2'
+
+plugin-packages:
+    - spin_python
+    - '../spin_docs'
+
+plugins:
+    - spin_docs.sphinx
+
+python:
+    version: '3.11.9'
+    requirements:
+        - sphinx-rtd-theme
+
+sphinx:
+    build_dir: _build
+
+build-rules:
+    task docs:
+        sources: docs/_schemaref.rst
+    docs/_schemaref.rst:
+        sources: [src/spin_docs]
+        spin:
+            - schemadoc docs -o docs/plugins/sphinx_schemaref.rst
