@@ -8,6 +8,10 @@ following spin-plugins:
 The sources of the plugin have been copied from
 https://code.contact.de/qs/tooling/spin-plugins/-/tree/ce38544c11384357221337c119b38dfb2c1ccce3
 
+[cs.spin](https://code.contact.de/qs/spin/cs.spin) is required for developing
+`spin_docs`, installation instructions can be found
+[here](http://qs.pages.contact.de/spin/cs.spin/installation.html).
+
 ## Creating a New Release
 
 The version scheme used is `major.minor.patch` while following the well-known
