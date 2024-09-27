@@ -23,7 +23,7 @@ def cfg():
 def execute_spin(tmpdir, what, cmd, path="tests/integration/yamls", props=""):
     """Helper to execute spin calls via spin."""
     output = backtick(
-        f"spin -p spin.cache={tmpdir} {props} -C {path} --env {tmpdir} -f"
+        f"spin -p spin.data={tmpdir} {props} -C {path} --env {tmpdir} -f"
         f" {what} --cleanup --provision {cmd}"
     )
     output = output.strip()
