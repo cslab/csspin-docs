@@ -1,9 +1,7 @@
-minimum-spin: '0.2'
 plugin-packages:
-    - spin-python<2.0.0,>=1.0.0a0
+    - spin-python
     - ../../..
 plugins:
-    - spin_python.python
     - spin_docs.sphinx
 python:
     version: '3.9.7'

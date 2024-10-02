@@ -15,10 +15,3 @@ sphinx:
         build_dir:
             type: path
             help: Place to store the built documentation
-        requires:
-            type: object
-            help: Dependencies of the sphinx plugin
-            properties:
-                python:
-                    type: list
-                    help: Python dependencies of the sphinx plugin
