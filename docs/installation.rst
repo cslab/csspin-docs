@@ -17,7 +17,6 @@ within a project's ``spinfile.yaml``.
 .. code-block:: yaml
     :caption: Example: ``spinfile.yaml`` setup to enable the pytest and python plugins
 
-    minimum-spin: "0.2"
     plugin-packages:
         - spin_python
         - spin_docs
@@ -31,7 +30,7 @@ following command within the project's directory:
 
 .. code-block:: console
 
-    spin --provision
+    spin provision
 
 The plugins defined in the plugins section of the ``spinfile.yaml`` can now be
 used, using:
