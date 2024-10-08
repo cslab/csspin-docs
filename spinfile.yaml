@@ -18,8 +18,8 @@ sphinx:
 
 build-rules:
     task docs:
-        sources: docs/_schemaref.rst
-    docs/_schemaref.rst:
+        sources: doc/_schemaref.rst
+    doc/_schemaref.rst:
         sources: [src/spin_docs]
         spin:
-            - schemadoc docs -o docs/plugins/sphinx_schemaref.rst
+            - schemadoc doc -o doc/plugins/sphinx_schemaref.rst

@@ -50,7 +50,7 @@ documentation can be built after provisioning:
 .. code-block:: console
    :caption: Building the documentation using ``spin_python.sphinx``
 
-   spin -p sphinx.build_dir=docs/ docs html
+   spin -p sphinx.build_dir=doc/ doc html
 
 ``spin_docs.sphinx`` schema reference
 #######################################
