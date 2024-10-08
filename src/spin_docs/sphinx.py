@@ -9,9 +9,9 @@
 from spin import config, rmtree, sh, task
 
 defaults = config(
-    docs="{spin.project_root}/docs",
+    docs="{spin.project_root}/doc",
     opts="-qaE",
-    build_dir="{spin.project_root}/docs/_build",
+    build_dir="{sphinx.docs}/_build",
     requires=config(
         spin=["spin_python.python"],
         python=["sphinx"],

@@ -35,7 +35,7 @@ junit.xml
 pytest*.xml
 
 # Documentation
-docs/_build
+doc/_build
 *schemaref.rst
 
 # IDE configuration
