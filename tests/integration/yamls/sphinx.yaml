@@ -1,5 +1,5 @@
 plugin_packages:
-    - spin-python
+    - spin_python
     - ../../..
 plugins:
     - spin_docs.sphinx
