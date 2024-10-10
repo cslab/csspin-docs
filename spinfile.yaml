@@ -19,4 +19,4 @@ build_rules:
     doc/_schemaref.rst:
         sources: [src/spin_docs]
         spin:
-            - schemadoc doc -o doc/plugins/sphinx_schemaref.rst
+            - schemadoc doc --rst -o doc/plugins/sphinx_schemaref.rst
