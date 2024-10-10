@@ -20,5 +20,4 @@ https://packages.contact.de/tools/misc/spin-docs.
    :caption: Contents:
 
    installation.rst
-   development.rst
    plugins/sphinx.rst
