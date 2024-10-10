@@ -17,9 +17,6 @@ It provides the ``docs``-task that does not support building the documentation
 for CONTACT Elements based projects and is currently only used for building the
 documentation of pure python packages.
 
-The plugin requires `make <https://www.gnu.org/software/make/>`_ to be in PATH
-and executable.
-
 How to setup the ``spin_docs.sphinx`` plugin?
 #############################################
 
@@ -27,7 +24,7 @@ For using the ``spin_docs.sphinx`` plugin, a project's ``spinfile.yaml`` must
 at least contain the following configuration.
 
 .. code-block:: yaml
-    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``spin_docsc.sphinx``
+    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``spin_docs.sphinx``
 
     plugin_packages:
         - spin_docs

@@ -6,7 +6,7 @@
 
 """Module implementing the sphinx plugin for cs.spin"""
 
-from spin import config, rmtree, sh, task
+from spin import config, rmtree, setenv, sh, task
 
 defaults = config(
     docs="{spin.project_root}/doc",
@@ -27,12 +27,12 @@ def cleanup(cfg):  # pylint: disable=unused-argument
 @task()
 def docs(cfg, args):
     """Build the documentation using sphinx"""
-    cmd = [
-        "make",
-        "-C",
+    setenv(LATEXMKOPTS="-silent")
+    sh(
+        "sphinx-build",
+        "-M",
+        *args,
         cfg.sphinx.docs,
-        f"SPHINXOPTS={cfg.sphinx.opts}",
-        f"BUILDDIR={cfg.sphinx.build_dir}",
-        "LATEXMKOPTS=-silent",
-    ]
-    sh(*cmd, *args)
+        cfg.sphinx.build_dir,
+        cfg.sphinx.opts,
+    )
