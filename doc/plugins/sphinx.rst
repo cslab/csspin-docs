@@ -27,7 +27,7 @@ For using the ``spin_docs.sphinx`` plugin, a project's ``spinfile.yaml`` must
 at least contain the following configuration.
 
 .. code-block:: yaml
-    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``spin_python.sphinx``
+    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``spin_docsc.sphinx``
 
     plugin_packages:
         - spin_docs

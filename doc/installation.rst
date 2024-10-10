@@ -15,7 +15,7 @@ For leveraging plugins from within the ``spin_docs`` plugin-package for
 within a project's ``spinfile.yaml``.
 
 .. code-block:: yaml
-    :caption: Example: ``spinfile.yaml`` setup to enable the pytest and python plugins
+    :caption: Example: ``spinfile.yaml`` setup to enable the sphinx plugin
 
     plugin_packages:
         - spin_python
