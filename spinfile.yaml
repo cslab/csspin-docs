@@ -3,7 +3,7 @@
 
 plugin_packages:
     - spin_python
-    - '../spin_docs'
+    - .
 
 plugins:
     - spin_docs.sphinx
