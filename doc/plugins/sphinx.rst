@@ -9,7 +9,7 @@
 spin_docs.sphinx
 ================
 
-The ``spin_sphinx.sphinx`` plugin provides a way to run the `sphinx
+The ``spin_docs.sphinx`` plugin provides a way to run the `sphinx
 <https://www.sphinx-doc.org/en/master/>`_ tool in the context of cs.spin for
 example to build a sphinx-based documentation.
 
