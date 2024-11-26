@@ -3,7 +3,7 @@
 
 plugin_packages:
     - spin_python
-    - .
+    - -e .
 
 plugins:
     - spin_docs.sphinx
@@ -12,6 +12,7 @@ python:
     version: '3.11.9'
     requirements:
         - sphinx-rtd-theme
+    index_url: https://packages.contact.de/tools/stable/+simple
 
 build_rules:
     task docs:
