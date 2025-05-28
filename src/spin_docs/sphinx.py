@@ -6,7 +6,11 @@
 
 """Module implementing the sphinx plugin for cs.spin"""
 
-from spin import config, rmtree, setenv, sh, task
+try:
+    from csspin import config, rmtree, setenv, sh, task
+except ImportError:
+    from spin import config, rmtree, setenv, sh, task
+
 
 defaults = config(
     docs="{spin.project_root}/doc",
