@@ -1,9 +1,7 @@
-spin:
-    index_url: https://packages.contact.de/tools/stable
 plugin_packages:
-    - spin_python
+    - csspin-python
     - ../../..
 plugins:
-    - spin_docs.sphinx
+    - csspin_docs.sphinx
 python:
     version: '3.9.7'

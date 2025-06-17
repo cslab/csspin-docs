@@ -14,21 +14,4 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-spin-docs documentation
-=======================
-
-The ``spin-docs`` plugin-package for `csspin`_ serves to provide the necessary
-plugins and tools for documentation building.
-
-.. The sources can be found at https://code.contact.de/qs/spin/spin_docs, while
-.. the released versions are available at
-.. https://packages.contact.de/tools/misc/spin-docs.
-
-``spin-docs`` requires at least Python 3.9.
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   installation.rst
-   plugins/sphinx.rst
+.. _csspin: https://pypi.org/project/csspin
