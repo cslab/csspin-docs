@@ -1,10 +1,10 @@
 # -*- mode: yaml; coding: utf-8 -*-
 #
-# Schema of the sphinx plugin for cs.spin
+# Schema of the sphinx plugin for csspin
 
 sphinx:
     type: object
-    help: Configuration of the sphinx plugin for cs.spin
+    help: Configuration of the sphinx plugin for csspin
     properties:
         docs:
             type: path

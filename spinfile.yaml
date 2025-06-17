@@ -1,25 +1,22 @@
-# The spinfile.yaml for spin_docs is required since building the documentation
+# The spinfile.yaml for csspin-docs is required since building the documentation
 # requires a provisioned project.
-spin:
-    index_url: https://packages.contact.de/tools/stable
 
 plugin_packages:
-    - spin_python
+    - csspin-python
     - -e .
 
 plugins:
-    - spin_docs.sphinx
+    - csspin_docs.sphinx
 
 python:
     version: '3.11.9'
     requirements:
         - sphinx-rtd-theme
-    index_url: https://packages.contact.de/tools/stable/+simple
 
 build_rules:
     task docs:
         sources: doc/_schemaref.rst
     doc/_schemaref.rst:
-        sources: [src/spin_docs]
+        sources: [src/csspin_docs]
         spin:
             - schemadoc doc --rst -o doc/plugins/sphinx_schemaref.rst
