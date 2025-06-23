@@ -35,7 +35,7 @@ For using the ``csspin_docs.sphinx`` plugin, a project's ``spinfile.yaml`` must
 at least contain the following configuration.
 
 .. code-block:: yaml
-    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``spin_docs.sphinx``
+    :caption: Minimal configuration of ``spinfile.yaml`` to leverage ``csspin_docs.sphinx``
 
     plugin_packages:
         - csspin-docs
