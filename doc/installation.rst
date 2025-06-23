@@ -31,7 +31,7 @@ within a project's ``spinfile.yaml``.
         - cspin-python
         - cspin-docs
     plugins:
-        - spin_docs.sphinx # provides the "docs"-task
+        - csspin_docs.sphinx # provides the "docs"-task
     python:
         version: "3.11.9"
 

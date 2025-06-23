@@ -22,7 +22,7 @@ plugins and tools for documentation building.
 
 .. The sources can be found at https://code.contact.de/qs/spin/spin_docs, while
 .. the released versions are available at
-.. https://packages.contact.de/tools/misc/spin-docs.
+.. https://pypi.org/project/csspin-docs
 
 ``spin-docs`` requires at least Python 3.9.
 
