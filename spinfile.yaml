@@ -1,6 +1,9 @@
 # The spinfile.yaml for csspin-docs is required since building the documentation
 # requires a provisioned project.
 
+spin:
+    project_name: csspin-docs
+
 plugin_packages:
     - csspin-python
     - -e .
