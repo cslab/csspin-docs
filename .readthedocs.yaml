@@ -10,7 +10,7 @@ build:
     commands:
         # Upgrade needed due to dependency conflict with platformdirs (spin vs virtualenv)
         - python -m pip install --upgrade virtualenv
-        - python -m pip install .
+        - python -m pip install csspin
         - spin provision
         - spin docs html
         - mkdir -p $READTHEDOCS_OUTPUT/html
