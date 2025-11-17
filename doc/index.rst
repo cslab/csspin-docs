@@ -32,3 +32,4 @@ plugins and tools for documentation building.
 
    installation.rst
    plugins/sphinx.rst
+   relnotes.rst
