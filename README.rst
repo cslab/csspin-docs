@@ -38,7 +38,7 @@ within the `spinfile.yaml` configuration file of your project.
       - csspin_docs.sphinx
 
     python:
-      version: 3.9.8
+      version: 3.10.19
 
 If the ``spinfile.yaml`` is configured correctly, you can provision the project
 using ``spin provision``, that will automatically create a Python virtual
