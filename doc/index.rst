@@ -20,11 +20,10 @@ spin-docs documentation
 The ``spin-docs`` plugin-package for `csspin`_ serves to provide the necessary
 plugins and tools for documentation building.
 
-.. The sources can be found at https://code.contact.de/qs/spin/spin_docs, while
-.. the released versions are available at
-.. https://pypi.org/project/csspin-docs
+The sources can be found at https://github.com/cslab/csspin-docs, while the
+released versions are available at https://pypi.org/project/csspin-docs
 
-``spin-docs`` requires at least Python 3.9.
+``spin-docs`` requires at least Python 3.10.
 
 .. toctree::
    :maxdepth: 2
