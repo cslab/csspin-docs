@@ -52,7 +52,7 @@
     Chores
     ------
 
-    - Add release notes to the documentation structure (`#19 <https://code.contact.de/qs/spin/spin_docs/-/issues/19>`_)
+    - Add release notes to the documentation structure (`#19 <https://code.contact.de/pod/components/csspin-docs/-/issues/19>`_)
 
 
 =============
@@ -67,5 +67,5 @@ Upcoming Release
 Chores
 ------
 
-- Add release notes to the documentation structure (`#19 <https://code.contact.de/qs/spin/spin_docs/-/issues/19>`_)
-- Publish the documentation to external users (`!27 <https://code.contact.de/qs/spin/spin_docs/-/merge_requests/27>`_)
+- Add release notes to the documentation structure (`#19 <https://code.contact.de/pod/components/csspin-docs/-/issues/19>`_)
+- Publish the documentation to external users (`!27 <https://code.contact.de/pod/components/csspin-docs/-/merge_requests/27>`_)
